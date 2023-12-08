@@ -1,0 +1,28 @@
+.nav-link{
+    position: relative;
+    
+}
+.nav-link::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg,transparent, #30AF5B);
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.75s ease-in-out;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.hamburger-menu div{
+    width: 33px;
+    height: 4px;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+    z-index:60 ;
+}
+.hamburger-menu div:nth-child(2){
+    margin: 7px 0px;
+}
