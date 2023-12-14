@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className='hero-map'/>
 
 
-        <div className=' relative z-20 flex flex-1 flex-col  lg:w-1/2'>
+        <div className=' relative  flex flex-1 flex-col  lg:w-1/2'>
             <Image
             src={'/camp.svg'}
             alt='camp-icon'
